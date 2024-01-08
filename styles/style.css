@@ -90,11 +90,13 @@ main {
 /* Third Section styles */
 
 .third-section {
+    margin-top: 120px;
     background-image: url("/assets/images/Vectorrr.png");
     width: 1320px;
     height: 600px;
     display: relative;
     background-position: center;
+    
 }
 
 .third-section-title {
@@ -108,14 +110,16 @@ main {
 }
 
 .third-section-container {
-    padding: 126px 552px 418px 126px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+    padding: 126px 552px 112px 126px;
 
 }
 
 .third-section-img {
-    position: absolute;   
+    position: absolute;
     right: 70px;
-    transform: translateY(-40%); 
+    transform: translateY(-83%);
     width: 319.83px;
     height: 464.662px;
     padding: 0.008px 0px 0px 0px;
@@ -123,4 +127,26 @@ main {
     justify-content: center;
     align-items: center;
 
+}
+
+.third-section-p {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.third-section-btn {
+    background-color: transparent;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
 }
