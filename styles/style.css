@@ -27,7 +27,7 @@
     text-align: center;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
-    
+
 
 }
 
@@ -35,18 +35,42 @@
     color: #FFF;
     font-family: Merriweather;
     font-size: 32px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
 }
 
 .main-title {
     color: #FFF;
-    text-align: center;
     font-family: Merriweather;
     font-size: 72px;
-    font-style: normal;
     font-weight: 900;
     line-height: 95px;
     width: 632px;
+}
+
+/* second section styles */
+
+.second-section {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.off-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+}
+
+.holiday-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.category-title {
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
 }
