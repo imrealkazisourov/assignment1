@@ -200,3 +200,88 @@ main {
     font-size: 20px;
     font-weight: 700;
 }
+
+/* Fifth Section Styles */
+.fifth-section {
+    width: 1600px;
+    height: 7335px;
+    background-color: #FFF;
+    margin-top: 120px;
+}
+
+.fifth-section-container {
+    display: inline-flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.fifth-section-title {
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    width: 207px;
+    height: 29px;
+}
+
+.fifth-section-sub-title {
+    color: #070211;
+    font-family: Merriweather;
+    margin-top: 16px;
+    font-size: 48px;
+    font-weight: 900;
+    height: 60px;
+    width: 328px;
+    margin-bottom: 22px;
+
+}
+
+.fifth-section-p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+    height: 128px;
+    margin-right: 70px;
+}
+
+.circle {
+    width: 463px;
+    height: 463px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    position: relative;
+    padding: 50px;
+    margin-right: 120px;
+
+}
+
+.fifth-section-final-t {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.fifth-section-final-p {
+    width: 276px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+
+}
+
+.fifth-section-final-img {
+    margin-top: 43px;
+    width: 140px;
+    height: 140px;
+
+}
