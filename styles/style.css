@@ -475,9 +475,27 @@ main {
     text-transform: capitalize;
 }
 
+/* footer section styles */
+
 .footer-section {
+    display: flex;
+    flex: row;
     margin-top: 120px;
     width: 1600px;
     height: 609px;
     background-color: #070211;
+}
+.footer-first {
+}
+
+.footer-text1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    width: 375px;
+    height: 80px;
+    justify-content: space-between;
 }
