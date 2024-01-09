@@ -484,9 +484,9 @@ main {
     width: 1600px;
     height: 609px;
     background-color: #070211;
+    text-align: right;
 }
-.footer-first {
-}
+
 
 .footer-text1 {
     color: #FFF;
@@ -498,4 +498,5 @@ main {
     width: 375px;
     height: 80px;
     justify-content: space-between;
+
 }
